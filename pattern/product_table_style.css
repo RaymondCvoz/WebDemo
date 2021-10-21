@@ -1,0 +1,33 @@
+#product_show tr {
+	height: 270px;
+}
+
+.header {
+	font: 微软雅黑, Arial;
+	font-size: 24px;
+	text-align: center;
+	width: 300px;
+	
+/*		border-color: #000000;
+	border-right: 1px;
+	border-left: 0px;
+	border-top: 0px;
+	border-bottom: 0px;*/
+}
+
+.showcase {
+	font: 微软雅黑, Arial;
+	font-size: 18px;
+	text-align: center;
+	width: 220px;
+	font-weight: bold;
+	border-color: #ccc;
+	border-width: 1px;
+	border-style: solid;
+}
+
+a img {
+	width: 200px;
+	height: 200px;
+	align-self: center;
+}

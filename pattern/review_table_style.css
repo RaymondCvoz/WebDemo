@@ -1,0 +1,47 @@
+.main_review {
+	width: 100%;
+}
+
+.showcase {
+	width: 40%;
+	align-self: center;
+}
+
+.showcase img {
+	width: 600px;
+	height: 300px;
+}
+
+.title {
+	font: 微软雅黑;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.datearc {
+	font: 微软雅黑, Arial;
+	font-size: 14px;
+	text-align: center;
+}
+
+.row_head {
+	width: 30%;
+}
+
+.row_head p {
+	font: 微软雅黑;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.row_body {
+
+}
+
+.row_body p {
+	font: 微软雅黑;
+	font-size: 18px;
+	text-align: left;
+}

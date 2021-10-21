@@ -1,0 +1,33 @@
+#main_text {
+/*	border-style: solid; 
+	border-color: #000000;
+	border-width: 1px;*/
+	text-align: center;
+	width: 100%;
+}
+
+.news_title {
+	font: 微软雅黑, Arial;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.mainarc {
+	width: 60%;
+}
+
+.mainarc p {
+	font: 微软雅黑, Arial;
+	font-size: 20px;
+	text-align: left;
+}
+
+.mainarc img {
+	width: 60%;
+}
+
+.datearc {
+	font: 微软雅黑, Arial;
+	font-size: 14px;
+	text-align: center;
+}

@@ -1,0 +1,31 @@
+.navig_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    vertical-align:middle;
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width:120px;
+}
+
+li a:hover:not(.x) {
+    background-color: #ffffff;
+    color:#0066ff;
+}
+
+.active_href {
+    background-color: #333;
+}

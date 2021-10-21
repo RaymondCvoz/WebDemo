@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+	<title>索尼移动产品信息站</title>
+
+	<style>
+	</style>
+
+	<link href="pattern/navig_style.css" rel="stylesheet" type="text/css" />
+	<link href="pattern/gallery_style.css" rel="stylesheet" type="text/css" />
+	<link href="pattern/href_style.css" rel="stylesheet" type="text/css" />
+
+	<script type="text/javascript" src="script/gallery.js"></script>
+
+</head>
+
+<body onload="init()" bgcolor="ffffff">
+	<!--导航栏-->
+	<div>
+		<ul class="navig_ul">
+			<li> <img src="img/logo2.png" width=120px height=50px align="middle"> </li>
+			<li> <a class="active_href" href="index.html"> 主页 </a> </li>
+			<li> <a href="products.html"> 产品列表 </a> </li>
+			<li> <a href="news.html"> 产品资讯 </a> </li>
+			<li> <a href="https://www.sonystyle.com.cn/products/xperia/index.html"> 官方网站 </a> </li>
+		</ul>
+	</div>
+	<table id="main_table" rules="none">
+		<tr bgcolor="#ffffff" height=33px>
+			<td width="1440px">
+				<!--题图-->
+				<p><img src="img/XPERIA.gif" align="right"></p>
+			</td>
+		</tr>
+
+		<tr bgcolor="#ffffff" height=330px>
+			<!--产品相册-->
+			<td>
+				<hr>
+				</hr>
+				<table id="gallery_table" rules="none">
+					<tr>
+						<td width=60px> </td>
+
+						<td>
+							<a id="gallery_link" href="products/xperia1.html">
+								<div id="gallary"><img border=2px class="img" src="img/xperia1.png" alt="pic1" /></br>
+								</div>
+							</a>
+						</td>
+
+						<td rowspan="3" width=1200px>
+							<a id="bar_link" href="products/xperia1.html">
+								<div id="show" align="center"><img id="showpic" src="img/xperia1_bar.png" alt="" />
+								</div>
+							</a>
+						</td>
+					</tr>
+
+					<tr>
+						<td width=60px> </td>
+						<td>
+							<a id="gallery_link" href="products/xperia5.html">
+								<div id="gallary"><img border=2px class="img" src="img/xperia5.png" alt="pic2" /></br>
+								</div>
+							</a>
+						</td>
+					</tr>
+
+					<tr>
+						<td width=60px> </td>
+						<td>
+							<a id="gallery_link" href="products/xperia10.html">
+								<div id="gallary"><img border=2px class="img" src="img/xperia10.jpg" alt="pic3" /></br>
+								</div>
+							</a>
+						</td>
+					</tr>
+				</table>
+				<hr>
+				</hr>
+			</td>
+		</tr>
+
+		<tr bgcolor="#ffffff" height=330px>
+			<!--产品快讯-->
+			<td width=1440px>
+				<table>
+					<tr>
+						<td width=700px>
+							<a href="news/news_0001.html" class="mylink">
+								<img src="img/xperia1_2.jpg" align="right"></img></br>
+								<p align="center"> Xperia 1 Ⅱ已在台湾发售 </p>
+							</a>
+						</td>
+						<td width=20px></td>
+						<td width=700px>
+							<a href="news/news_0002.html" class="mylink">
+								<img src="img/xperia10_2.jpg" align="left"></img></br>
+								<p align="center"> Xperia 10 Ⅱ已在台湾发售 </p>
+							</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+
+</html>

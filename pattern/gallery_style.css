@@ -1,0 +1,25 @@
+body {
+    /* margin: 10px; */
+}
+
+.img {
+    height: 100px;
+    cursor: pointer;
+    border-color: #ffffff;
+}
+
+#gallary {
+    float: left;
+    height: 100px;
+}
+
+#show {
+    padding: 10px 10px 10px 10px;
+}
+    
+#showpic {
+    width: 1200px;
+    height: 300px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
