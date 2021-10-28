@@ -4,7 +4,7 @@
 
 .header {
 	font: 微软雅黑, Arial;
-	font-size: 24px;
+	font-size: 30px;
 	text-align: center;
 	width: 300px;
 	
@@ -24,6 +24,10 @@
 	border-color: #ccc;
 	border-width: 1px;
 	border-style: solid;
+}
+#purchase
+{
+	color: cornflowerblue;
 }
 
 a img {

@@ -45,3 +45,15 @@
 	font-size: 18px;
 	text-align: left;
 }
+
+#purchase
+{
+	width: 100px;
+	height: 50px;
+	margin-bottom: 50px;
+	color: white;
+	font-size: 18px;
+	background-color: cornflowerblue;
+	border-width: 0px;
+	border-radius: 5px;
+}
